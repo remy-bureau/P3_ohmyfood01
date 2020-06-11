@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    width: 1000px;
+    background-color: $secondary;
+    margin: 0 auto;
+    row-gap: 4rem;
+    height: 100%;
+    padding-bottom: 10rem;
+}
+.main__header, .prochainement, .main__footer {
+    background-color: $color-principal;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+h1, .prochainement {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h2 {
+    padding-top: -5rem;
+    font-family: 'Squada One', cursive;
+    font-size: 2rem;
+}
+h3 {
+    font-family: 'Kalam', cursive;
+}
+a:link {
+    text-decoration: none;
+}
+.fas {
+    background-image: linear-gradient(45deg, #de2e1f, #e5da00);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+section li, .menu__plats {
+    font-family: 'Kalam', cursive;
+    font-size: 0.9rem;
+}
